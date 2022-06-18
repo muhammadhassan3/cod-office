@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="COD_Market_Office.Page.Stock.StockIn"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:COD_Market_Office.Page.Stock"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Style="{StaticResource btnback}" Content="{StaticResource btnBack}" Grid.Row="0" Grid.Column="0" Click="BtnBackClicked"/>
+        <Label Content="Outlet" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1"/>
+        <ComboBox Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Margin="4 8 4 8" SelectionChanged="OnOutletChanged" x:Name="cbOutlet"/>
+        <Button Grid.Row="0" Grid.Column="4" Style="{StaticResource btnback}" Click="OnAddStockClicked" HorizontalAlignment="Right">
+            <Image Source="/Assets/plus.ico"/>
+        </Button>
+        <DataGrid x:Name="tblKat" MouseLeftButtonUp="OnKatRowSelected" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="0 4 4 0" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id"/>
+                <DataGridTextColumn Header="Nama" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="tblMerek" MouseLeftButtonUp="OnMerekRowSelected" Grid.Row="1" Grid.Column="3"  Margin="0 4 4 0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id"/>
+                <DataGridTextColumn Header="Nama" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="tblItem" MouseLeftButtonUp="OnItemRowSelected" Grid.Row="1" Grid.Column="4" Margin="0 4 0 0">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Ubah" Click="EditStockClicked"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id"/>
+                <DataGridTextColumn Header="Nama"/>
+                <DataGridTextColumn Header="Harga Beli"/>
+                <DataGridTextColumn Header="Diskon"/>
+                <DataGridTextColumn Header="Grosir"/>
+                <DataGridTextColumn Header="Minimal Grosir"/>
+                <DataGridTextColumn Header="Potongan Harga Grosir"/>
+                <DataGridTextColumn Header="Stok"/>
+                <DataGridTextColumn Header="Harga Jual"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

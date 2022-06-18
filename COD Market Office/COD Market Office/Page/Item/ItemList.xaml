@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="COD_Market_Office.Page.Item.ItemList"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:COD_Market_Office.Page.Item"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Padding="8">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnBack" Content="{StaticResource btnBack}" Style="{StaticResource btnback}" Click="btnBackClicked"/>
+        <Label Content="Daftar Barang" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Label Content="Kategori" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
+        <Label Content="Merek" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center"/>
+        <Label Content="Item" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center"/>
+        <Button x:Name="btnAddKat" Content="Tambah" Grid.Column="0" Grid.Row="2" Click="btnAddKatClicked" Grid.ColumnSpan="2" HorizontalAlignment="Left"/>
+        <Button x:Name="btnShowMerek" Content="Tambah" Grid.Column="2" Grid.Row="2" Click="btnShowMerekList" HorizontalAlignment="Left"/>
+        <Button x:Name="btnAddItem" Content="Tambah" Grid.Column="3" Grid.Row="2" Click="btnAddItemClicked" HorizontalAlignment="Left"/>
+        <DataGrid x:Name="tblKat" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="0 4 4 0" MouseLeftButtonUp="tblKatClicked">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Ubah" Click="btnEditKatClicked"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding id}"/>
+                <DataGridTextColumn Header="Nama" Width="*" Binding="{Binding nama}"/>
+                <DataGridTextColumn Header="Tampil" Binding="{Binding isVisible}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid Grid.Row="3" x:Name="tblMerek" Grid.Column="2" Margin="0 4 4 0" MouseLeftButtonUp="tblMerekClicked">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding id}"/>
+                <DataGridTextColumn Header="Nama" Width="*" Binding="{Binding nama}"/>
+                <DataGridTextColumn Header="Tampil" Binding="{Binding isVisible}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid Grid.Row="3" Grid.Column="3" x:Name="tblItem" Margin="0 4 0 0">
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Ubah" Click="btnEditItemClicked"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding id}"/>
+                <DataGridTextColumn Header="Nama Barang" Width="*" Binding="{Binding nama}"/>
+                <DataGridTextColumn Header="Barcode" Binding="{Binding barcode}"/>
+                <DataGridTextColumn Header="Tampil" Binding="{Binding isVisible}"/>
+                <DataGridTextColumn Header="PPN(%)" Binding="{Binding ppn}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

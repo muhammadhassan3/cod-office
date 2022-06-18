@@ -1,0 +1,30 @@
+﻿<Window x:Class="COD_Market_Office.Page.Jasa.AddKatJasa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:COD_Market_Office.Page.Jasa"
+        mc:Ignorable="d"
+        Title="Tambah Kategori Jasa" Height="400" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ShowInTaskbar="False" Topmost="True">
+    <Grid Margin="8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="image" Height="200" Grid.ColumnSpan="2" Grid.Column="0" HorizontalAlignment="Center" Margin="8" Stretch="Uniform" Width="500"/>
+        <Button Content="Pilih File..." Grid.Row="1" Grid.Column="0" Margin="8" Click="SelectImageFromFile"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="Size" VerticalAlignment="Center" Margin="8" HorizontalAlignment="Right" x:Name="fileSize"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Nama Kategori"/>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="tbName"/>
+        <CheckBox Content="Tampil" Grid.Column="0" Grid.Row="3" x:Name="cbVisible" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
+        <Button x:Name="btnSave" Content="Simpan" HorizontalAlignment="Center" VerticalAlignment="Center" Click="OnBtnSaveClicked" Grid.Row="4" Grid.ColumnSpan="2"
+                Grid.Column="0"/>
+    </Grid>
+</Window>

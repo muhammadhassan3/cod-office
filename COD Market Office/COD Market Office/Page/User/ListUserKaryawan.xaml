@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="COD_Market_Office.Page.User.ListUserKaryawan"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:COD_Market_Office.Page.User"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Column="0" Grid.Row="0" Style="{StaticResource btnback}" Content="{StaticResource btnBack}" Click="BtnBackClicked"/>
+        <Label Grid.Column="1" Grid.Row="0" Content="Cari" Margin="4 0 4 0" VerticalAlignment="Center"/>
+        <TextBox x:Name="tbSearch" Grid.Row="0" Grid.Column="2" Margin="8" Grid.ColumnSpan="4"/>
+        <Button Style="{StaticResource btnback}" Grid.Row="0" Grid.Column="6" Click="BtnSearchClicked">
+            <Image Source="/Assets/search.ico"/>
+        </Button>
+        <Label Content="Outlet" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="4 0 4 0"/>
+        <ComboBox x:Name="cbOutlet" SelectedIndex="0" Grid.Row="1" Grid.Column="1" Margin="0 8 0 8" Grid.ColumnSpan="2" SelectionChanged="OnOutletSelectionChanged"/>
+        <Label Content="Grant" Grid.Row="1" Grid.Column="4" VerticalAlignment="Center" Margin="4 0 4 0"/>
+        <ComboBox x:Name="cbFilter" SelectedIndex="0" Grid.Row="1" Grid.Column="5" Margin="0 8 0 8" Grid.ColumnSpan="2" SelectionChanged="OnFilterChanged">
+            <ComboBoxItem Content="Semua"/>
+        </ComboBox>
+        <DataGrid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="7" x:Name="tblUser">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id"/>
+                <DataGridTextColumn Header="Nama" Width="*"/>
+                <DataGridTextColumn Header="Nomor Telepon"/>
+                <DataGridTextColumn Header="Grant"/>
+                <DataGridTextColumn Header="Status"/>
+                <DataGridTextColumn Header="Tanggal Terdaftar"/>
+            </DataGrid.Columns>
+
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Tambah" Click="OnAddClicked"/>
+                    <MenuItem Header="Ubah" Click="OnEditClicked"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
+    </Grid>
+</UserControl>

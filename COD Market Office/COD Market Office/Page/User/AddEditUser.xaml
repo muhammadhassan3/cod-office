@@ -1,0 +1,53 @@
+﻿<Window x:Class="COD_Market_Office.Page.User.AddEditUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:COD_Market_Office.Page.User"
+        mc:Ignorable="d"
+        Title="AddEditUser" Height="auto" Width="500
+        " ShowInTaskbar="False" Topmost="True" WindowStartupLocation="CenterScreen" SizeToContent="Height">
+    <Grid Margin="8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Label Content="Nama" Grid.Row="0" Grid.Column="0" Margin="0 4 8 4"/>
+        <TextBox x:Name="tbNama" Grid.Row="0" Grid.Column="1" Margin="0 4 0 4" Grid.ColumnSpan="4"/>
+        <Label Content="Nomor Telepon" Grid.Row="1" Grid.Column="0" Margin="0 4 8 4"/>
+        <TextBox x:Name="tbTelp" Grid.Row="1" Grid.Column="1" Margin="0 4 0 4" Grid.ColumnSpan="4"/>
+        <Label Content="Alamat" Grid.Row="2" Grid.Column="0" Margin="0 4 8 4"/>
+        <TextBox x:Name="tbAlamat" Grid.Row="2" Grid.Column="1" Margin="0 4 0 4" Grid.ColumnSpan="4"/>
+        <Label Content="RT" Grid.Row="3" Grid.Column="0" Margin="0 4 8 4"/>
+        <TextBox x:Name="tbRt" Grid.Row="3" Grid.Column="1" Margin="0 4 0 4"/>
+        <Label Content="RW" Grid.Row="3" Grid.Column="2" Margin="0 4 8 4"/>
+        <TextBox x:Name="tbRw" Grid.Row="3" Grid.Column="3" Margin="0 4 0 4"/>
+        <Label Content="Kelurahan/Desa" Grid.Row="4" Grid.Column="0" Margin="0 4 8 4"/>
+        <TextBox x:Name="tbKelurahan" Grid.Row="4" Grid.Column="1" Margin="0 4 0 4"/>
+        <Label Content="Kecamatan" Grid.Row="4" Grid.Column="2" Margin="0 4 8 4"/>
+        <TextBox x:Name="tbKec" Grid.Row="4" Grid.Column="3" Margin="0 4 0 4"/>
+        <Label Content="Provinsi" Grid.Row="5" Grid.Column="0" Margin="0 4 8 4"/>
+        <ComboBox x:Name="cbProv" Grid.Row="5" Grid.Column="1" Margin="0 4 0 4" SelectedIndex="0"  Grid.ColumnSpan="4">
+            <ComboBoxItem Content="Pilih Provinsi"/>
+        </ComboBox>
+        <Label Content="Kabupaten" Grid.Row="6" Grid.Column="0" Margin="0 4 8 4"/>
+        <ComboBox x:Name="cbKab" Grid.Row="6" Grid.Column="1" Margin="0 4 0 4" SelectedIndex="0" Grid.ColumnSpan="4">
+            <ComboBoxItem Content="Pilih Kabupaten"/>
+        </ComboBox>
+        <CheckBox Content="Blokir" x:Name="cbBlocked" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" Margin="4"/>
+        <Button Content="Simpan" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="4" Click="BtnSaveClicked"/>
+    </Grid>
+</Window>

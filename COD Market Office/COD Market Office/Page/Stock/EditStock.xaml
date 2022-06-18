@@ -1,0 +1,33 @@
+﻿<Window x:Class="COD_Market_Office.Page.Stock.EditStock"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:COD_Market_Office.Page.Stock"
+        mc:Ignorable="d"
+        Title="EditStock" Height="auto" Width="800" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" SizeToContent="Height">
+    <Grid Margin="8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="imgItem" Stretch="Uniform" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"/>
+        <Label Grid.Row="1" Grid.Column="0" Margin="0 8 4 8">Nama Item</Label>
+        <Label Grid.Row="1" Grid.Column="1" Margin="0 8 4 8" x:Name="tbName">Nama Item</Label>
+        <Label Grid.Row="2" Grid.Column="0" Margin="0 8 4 8">Harga Retail</Label>
+        <Label Grid.Row="2" Grid.Column="1" Margin="0 8 4 8" x:Name="tbRetailPrice">Nama Item</Label>
+        <Label Grid.Row="3" Grid.Column="0" Margin="0 8 4 8">Harga Grosir</Label>
+        <Label Grid.Row="3" Grid.Column="1" Margin="0 8 4 8" x:Name="tbGrocery">Nama Item</Label>
+        <Label Grid.Row="4" Grid.Column="0" Margin="0 8 4 8">Stok</Label>
+        <TextBox x:Name="tbStock" Grid.Row="4" Grid.Column="1" Margin="0 8"/>
+        <Button Content="Simpan" Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Padding="4" Click="OnBtnSaveClicked"/>
+    </Grid>
+</Window>

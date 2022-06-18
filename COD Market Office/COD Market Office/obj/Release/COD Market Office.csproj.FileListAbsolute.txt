@@ -1,0 +1,80 @@
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\COD Market Office.exe.config
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\COD Market Office.exe
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\COD Market Office.pdb
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\Newtonsoft.Json.dll
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\RestSharp.dll
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\System.Net.Http.Formatting.dll
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\ToastNotifications.dll
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\ToastNotifications.Messages.dll
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\Newtonsoft.Json.xml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\RestSharp.xml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\bin\Release\System.Net.Http.Formatting.xml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\App.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\MainWindow.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\BottomBarStatus.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Home.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Jasa\AddKatJasa.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Jasa\EditKatJasa.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Jasa\ListInvoiceJasa.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Jasa\ListJasa.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Login.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\TopBarMenu.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\App.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\COD Market Office_MarkupCompile.cache
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\COD Market Office_MarkupCompile.lref
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\MainWindow.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\BottomBarStatus.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Home.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Jasa\AddKatJasa.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Jasa\EditKatJasa.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Jasa\ListInvoiceJasa.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Jasa\ListJasa.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Login.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\TopBarMenu.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\COD Market Office.g.resources
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\COD_Market_Office.Properties.Resources.resources
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\COD Market Office.csproj.GenerateResource.cache
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\COD Market Office.csproj.CoreCompileInputs.cache
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\COD Market Office.csproj.CopyComplete
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\COD Market Office.exe
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\COD Market Office.pdb
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Order\CourierTask.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Order\OrderProcessing.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Outlet\AddEditOutlet.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Outlet\ListInvoiceOutlet.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Outlet\ListOutlet.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\User\AddEditKaryawan.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\User\AddEditUser.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\User\ListUserKaryawan.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\User\UserList.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Order\CourierTask.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Order\OrderProcessing.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Outlet\AddEditOutlet.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Outlet\ListInvoiceOutlet.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Outlet\ListOutlet.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\User\AddEditKaryawan.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\User\AddEditUser.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\User\ListUserKaryawan.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\User\UserList.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Accounting\Accounting.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Accounting\Accounting.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Stock\StockIn.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\AddEditItem.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\AddEditKategori.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\AddEditMerek.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\ItemList.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\MerekList.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Stock\AddStock.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Stock\EditStock.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Stock\StockIn.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\ItemFinder.g.cs
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\AddEditItem.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\AddEditKategori.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\AddEditMerek.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\ItemList.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\MerekList.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Stock\AddStock.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Stock\EditStock.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\Page\Item\ItemFinder.baml
+E:\Coding\COD_Source\COD Office 2.0\COD Market Office\COD Market Office\obj\Release\COD Market Office.csprojAssemblyReference.cache

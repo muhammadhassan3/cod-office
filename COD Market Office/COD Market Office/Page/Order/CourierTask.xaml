@@ -1,0 +1,38 @@
+﻿<Window x:Class="COD_Market_Office.Page.Order.CourierTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:COD_Market_Office.Page.Order"
+        mc:Ignorable="d"
+        Title="CourierTask" Height="450" Width="800">
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Margin="0 0 8 8">Nama Kurir</Label>
+        <ComboBox x:Name="cbCourier" Grid.Row="0" Grid.Column="1" Margin="0 0 0 8"/>
+        <DataGrid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="tblTask">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Pilih">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding isSelected, UpdateSourceTrigger=PropertyChanged}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Nomor Pesanan" Binding="{Binding noOrder}"/>
+                <DataGridTextColumn Header="Nama Pelanggan" Binding="{Binding user_name}"/>
+                <DataGridTextColumn Header="Alamat Pengiriman" Binding="{Binding alamat}"/>
+                <DataGridTextColumn Header="Metode Pembayaran" Binding="{Binding metode_name}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Simpan" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" Margin="0 8 0 0" Click="OnSaveClicked"/>
+    </Grid>
+</Window>
